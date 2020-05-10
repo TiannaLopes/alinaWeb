@@ -1,0 +1,109 @@
+header{
+  background-color:grey;
+  text-align: center;
+  font: Roboto;
+  font-size: 30px;
+  height: 50px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.3333%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+
+}
+
+#Home {background-color: #E6E6FA;
+height: 100%;}
+#Projects {background-color: #E6E6FA;}
+#Contact {background-color: #E6E6FA;
+height:100%}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 80%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+  float: left;
+  margin: 20px;
+  width: 20%;
+ 
+}
+
+
+.fa-github {
+  background: black;
+  color: white;
+  float:left;
+   margin: 20px;
+  width: 20%;
+}
+
+.fa-instagram {
+  background: #FF00FF;
+  color: white;
+   margin: 20px;
+  width: 20%;
+}

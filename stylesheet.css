@@ -83,6 +83,7 @@ height:100%}
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
+  height: 200px;
   width: 80%;
   padding: 20px;
 }

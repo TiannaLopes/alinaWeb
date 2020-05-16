@@ -77,12 +77,10 @@ height:100%}
    margin: 20px;
   width: 20%;
 }
-#Home .fakeimg {
-  height: 200px;
-}
+
 .fakeimg {
   background-color: #aaa;
- 
+ height 70 px;
   padding: 20px;
 }
 
